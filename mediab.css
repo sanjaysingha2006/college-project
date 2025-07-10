@@ -1,0 +1,176 @@
+@media (max-width: 992px) {
+            .category-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+ @media (max-width: 768px) {
+            .service-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .category-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .delivery-address {
+                max-width: 150px;
+            }
+        }
+
+ @media (max-width: 480px) {
+            header {
+                flex-wrap: wrap;
+                padding: 12px 16px;
+            }
+            .hero-banner {
+              width: 100%;
+              border-radius:10px;
+              height: 7vh;
+              margin-bottom: 10px;
+              position: relative;
+              overflow: hidden;
+              /* display: flex; */
+              align-items: center;
+              /* background-color: #5dc969; */
+              background-image: url(https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=2700/layout-engine/2022-05/Group-33704.jpg);
+              background-size: cover;
+              background-position: center;
+            }
+            .logo-container {
+                width: 100%;
+                margin-bottom: 12px;
+                justify-content: space-between;
+            }
+
+            .search-container {
+                width: 100%;
+                margin: 0 0 12px 0;
+            }
+
+            .user-actions {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            .hero-content {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .hero-title {
+                font-size: 24px;
+            }
+
+            .hero-subtitle {
+                font-size: 16px;
+            }
+
+            .category-grid {
+                grid-template-columns: repeat(4, 4fr);
+                width: 100%;
+            }
+            .category-image {
+              width: 82px;
+              height: 108px;
+              background-size: contain;
+              background-repeat: no-repeat;
+              background-position: center;
+              margin-bottom: 0px;
+            
+             }
+            
+            .card-content {
+                width: 100%;
+                z-index: 2;
+            }
+
+            .card-image {
+                opacity: 0.3;
+                width: 100%;
+                background-position: right center;
+            }
+
+            .service-card {
+               background-size: cover;
+               border-radius: 6px;
+
+            }
+            .service-cards {
+              display: flex;
+              gap: 3%;
+              padding: 1%;
+            }
+
+            .pharmacy-card,.pet-card,.baby-card {
+height: 90px;
+width: 150px;
+background-size: cover;
+/* border-radius: none; */
+        }
+        .useful-links {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 8px 15px;
+        }
+      }
+
+@media (max-width: 992px) {
+            .links-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .useful-links {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .categories {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .footer-top {
+                flex-direction: column;
+            }
+            
+            /* .links-container {
+                grid-template-columns: 1fr;
+            } */
+            
+            .useful-links {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .categories {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .app-download {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .download-text {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            /* .useful-links {
+                grid-template-columns: 1fr;
+            } */
+            
+            .categories {
+                grid-template-columns: (3, 1fr);
+            }
+            
+            .app-stores {
+                flex-direction: column;
+            }
+        }
